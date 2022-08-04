@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="21dp"
+    android:paddingEnd="21dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bluePrimary">
+
+    <TextView
+        android:id="@+id/balanceTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/balanceIncomeTv"
+        android:text="USD 512.92"
+        android:textAppearance="@style/header_18"/>
+
+    <TextView
+        android:id="@+id/balanceIncomeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/balanceTv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="+723.44 USD"
+        android:textAppearance="@style/label_23"/>
+
+    <TextView
+        android:id="@+id/balanceExpenseTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/balanceTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="-210.52 USD"
+        android:textAppearance="@style/label_23"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

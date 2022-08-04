@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">walletapp</string>
+    <string name="login">Login</string>
+    <string name="loginPrompt">Create an account, save all your expenses in one secure place</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="agreement">By continuing you are indicating that you agree to the</string>
+    <string name="terms">Terms</string>
+    <string name="and">and</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="email_text_view_hint">sample@email.com</string>
+    <string name="account">Accounts</string>
+    <string name="transactions">Transactions</string>
+    <string name="analytics">Analytics</string>
+    <string name="more">More</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="add_account">Add account</string>
+    <string name="save">Save account</string>
+</resources>

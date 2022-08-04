@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "616031522335",
+    "project_id": "wallet-app-a854b",
+    "storage_bucket": "wallet-app-a854b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616031522335:android:7b9b0a774c956b8d2c0f2a",
+        "android_client_info": {
+          "package_name": "dev.imam.walletapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616031522335-712cqrd055g5k91lp72t544893qb2lh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.imam.walletapp",
+            "certificate_hash": "650bbffbc0a8af80a2d790db5478f28052fb62df"
+          }
+        },
+        {
+          "client_id": "616031522335-4kagmkevtedh3dv76qvnvp1c4l4180or.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWIR4bDC-9bG3U_lb3MkpjTKUDlQ0x658"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616031522335-4kagmkevtedh3dv76qvnvp1c4l4180or.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
